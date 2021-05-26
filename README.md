@@ -46,6 +46,7 @@
 ## :dart: About ##
 
 dateformat is a simple library that formats dates to something more understandable using the object <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat" target="_blank">Intl.RelativeTimeFormat</a>.
+the module requires two parameters, the date and a language, by default the language is set to 'en', the language format supported is <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">.ISO 639-1 code.</a>
 
 <!-- ## :sparkles: Features ##
 
@@ -67,22 +68,21 @@ The following tools were used in this project:
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed. -->
 
-## :checkered_flag: Starting ##
+## :checkered_flag: How to use ##
 
 ```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/dateformat
+# import the module using
+const { datetime } = require('datetime');
+# or
+import { datetime } from 'datetime';
 
-# Access
-$ cd dateformat
 
-# Install dependencies
-$ yarn
+# use
+datetime('2020-11-12', 'en');
+#returns from the current date, the days that have passed in the English language
 
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
+#or you can also use
+datetime('2021-05-26T01:00:36.876Z', 'es');
 ```
 
 ## :memo: License ##

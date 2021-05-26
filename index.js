@@ -28,7 +28,6 @@ function datetime (timestamp, lang) {
   const {value, unit} = getUnitAndValueDate(secondsElapsed)
   
   const dateformat = rtf.format(value, unit)
-  // console.log(dateformat)
   return dateformat
 }
 
