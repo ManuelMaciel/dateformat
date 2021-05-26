@@ -72,17 +72,17 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```javascript
 // import the module using
-const { datetime } = require('datetime');
+const { dateformat } = require('dateformat');
 // or
-import { datetime } from 'datetime';
+import { dateformat } from 'dateformat';
 
 
 // use
-datetime('2020-11-12', 'en');
+dateformat('2020-11-12', 'en');
 // returns from the current date, the days that have passed in the English language
 
 // or you can also use
-datetime('2021-05-26T01:00:36.876Z', 'es');
+dateformat('2021-05-26T01:00:36.876Z', 'es');
 ```
 
 ## :memo: License ##

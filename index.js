@@ -1,4 +1,4 @@
-function datetime (timestamp, lang) {
+function dateformat (timestamp, lang) {
   const DATE_UNITS = {
     day: 86400,
     hour: 3600,
@@ -31,4 +31,4 @@ function datetime (timestamp, lang) {
   return dateformat
 }
 
-module.exports.datetime = datetime
+module.exports.dateformat = dateformat
