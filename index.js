@@ -27,8 +27,8 @@ function dateformat (timestamp, lang) {
   const secondsElapsed = getSecDiff(time);
   const {value, unit} = getUnitAndValueDate(secondsElapsed)
   
-  const dateformat = rtf.format(value, unit)
-  return dateformat
+  const dateformatStr = rtf.format(value, unit)
+  return dateformatStr
 }
 
 module.exports.dateformat = dateformat
