@@ -1,7 +1,7 @@
 {
-  "name": "dateformat",
-  "version": "1.0.0",
-  "description": "dateformat is a simple library that formats dates to something more understandable.",
+  "name": "dateformat-mm",
+  "version": "0.0.6",
+  "description": "ateformat is a simple library that formats dates to something more understandable using the object Intl.RelativeTimeFormat",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
