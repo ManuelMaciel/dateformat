@@ -1,0 +1,19 @@
+{
+  "name": "dateformat",
+  "version": "1.0.0",
+  "description": "dateformat is a simple library that formats dates to something more understandable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "datetime",
+    "dateforma",
+    "timeago.js",
+    "date",
+    "javascript",
+    "js"
+  ],
+  "author": "ManuelMaciel",
+  "license": "MIT"
+}
