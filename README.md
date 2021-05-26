@@ -29,23 +29,23 @@
 	🚧  Dateformat 🚀 Under construction...  🚧
 </h4> 
 
-<hr>
+<!-- <hr> -->
 
-<p align="center">
+<!-- <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
-</p>
+  
+</p> -->
 
 <br>
 
 ## :dart: About ##
 
-dateformat is a simple library that formats dates to something more understandable.
+dateformat is a simple library that formats dates to something more understandable using the object <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat" target="_blank">Intl.RelativeTimeFormat</a>.
 
 <!-- ## :sparkles: Features ##
 
